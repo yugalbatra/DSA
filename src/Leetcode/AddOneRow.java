@@ -1,7 +1,10 @@
 package Leetcode;
 
 public class AddOneRow {
-
+    public static void main(String[] args) {
+        WordOccursAsPrefic w = new WordOccursAsPrefic();
+        w.isPrefixOfWord("","");
+    }
     public TreeNode add(TreeNode root, int val, int depth, int curr) {
         if (root == null)
             return null;
